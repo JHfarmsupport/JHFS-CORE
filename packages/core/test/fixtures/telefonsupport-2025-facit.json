@@ -1,0 +1,1646 @@
+{
+ "kilde": "Fakturagrundlag 2025 (anonymiseret: kun minutter og beløb, ingen kundenavne)",
+ "total_kr": 114750,
+ "linjer": [
+  {
+   "linje": 1,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 11,
+   "beloebKr": 500
+  },
+  {
+   "linje": 2,
+   "maaned": "2025-07",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 3,
+   "maaned": "2025-02",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 4,
+   "maaned": "2025-03",
+   "normal": 109,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 2000
+  },
+  {
+   "linje": 5,
+   "maaned": "2025-04",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 6,
+   "maaned": "2025-06",
+   "normal": 28,
+   "aften": 9,
+   "weekend": 39,
+   "beloebKr": 2500
+  },
+  {
+   "linje": 7,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 5,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 8,
+   "maaned": "2025-09",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 9,
+   "maaned": "2025-02",
+   "normal": 38,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 10,
+   "maaned": "2025-04",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 11,
+   "maaned": "2025-05",
+   "normal": 14,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 12,
+   "maaned": "2025-09",
+   "normal": 25,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 13,
+   "maaned": "2025-10",
+   "normal": 25,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 14,
+   "maaned": "2025-11",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 15,
+   "maaned": "2025-03",
+   "normal": 56,
+   "aften": 0,
+   "weekend": 10,
+   "beloebKr": 1500
+  },
+  {
+   "linje": 16,
+   "maaned": "2025-02",
+   "normal": 3,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 17,
+   "maaned": "2025-06",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 18,
+   "maaned": "2025-10",
+   "normal": 13,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 19,
+   "maaned": "2025-02",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 20,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 8,
+   "beloebKr": 500
+  },
+  {
+   "linje": 21,
+   "maaned": "2025-04",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 22,
+   "maaned": "2025-09",
+   "normal": 49,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 23,
+   "maaned": "2025-10",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 24,
+   "maaned": "2025-08",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 25,
+   "maaned": "2025-09",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 26,
+   "maaned": "2025-03",
+   "normal": 55,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 27,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 3,
+   "beloebKr": 500
+  },
+  {
+   "linje": 28,
+   "maaned": "2025-09",
+   "normal": 0,
+   "aften": 5,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 29,
+   "maaned": "2025-03",
+   "normal": 1,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 30,
+   "maaned": "2025-04",
+   "normal": 11,
+   "aften": 32,
+   "weekend": 0,
+   "beloebKr": 1750
+  },
+  {
+   "linje": 31,
+   "maaned": "2025-05",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 32,
+   "maaned": "2025-04",
+   "normal": 30,
+   "aften": 28,
+   "weekend": 0,
+   "beloebKr": 1500
+  },
+  {
+   "linje": 33,
+   "maaned": "2025-05",
+   "normal": 53,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 34,
+   "maaned": "2025-06",
+   "normal": 31,
+   "aften": 0,
+   "weekend": 18,
+   "beloebKr": 1750
+  },
+  {
+   "linje": 35,
+   "maaned": "2025-07",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 36,
+   "maaned": "2025-03",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 37,
+   "maaned": "2025-04",
+   "normal": 52,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 38,
+   "maaned": "2025-03",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 8,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 39,
+   "maaned": "2025-08",
+   "normal": 26,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 40,
+   "maaned": "2025-10",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 41,
+   "maaned": "2025-04",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 42,
+   "maaned": "2025-03",
+   "normal": 22,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 43,
+   "maaned": "2025-04",
+   "normal": 15,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 44,
+   "maaned": "2025-07",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 21,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 45,
+   "maaned": "2025-08",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 2,
+   "beloebKr": 750
+  },
+  {
+   "linje": 46,
+   "maaned": "2025-09",
+   "normal": 5,
+   "aften": 3,
+   "weekend": 4,
+   "beloebKr": 750
+  },
+  {
+   "linje": 47,
+   "maaned": "2025-02",
+   "normal": 10,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 48,
+   "maaned": "2025-03",
+   "normal": 51,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 49,
+   "maaned": "2025-04",
+   "normal": 23,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 50,
+   "maaned": "2025-05",
+   "normal": 128,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 2250
+  },
+  {
+   "linje": 51,
+   "maaned": "2025-07",
+   "normal": 30,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 52,
+   "maaned": "2025-08",
+   "normal": 7,
+   "aften": 11,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 53,
+   "maaned": "2025-09",
+   "normal": 43,
+   "aften": 6,
+   "weekend": 0,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 54,
+   "maaned": "2025-10",
+   "normal": 73,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 55,
+   "maaned": "2025-02",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 56,
+   "maaned": "2025-07",
+   "normal": 29,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 57,
+   "maaned": "2025-08",
+   "normal": 37,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 58,
+   "maaned": "2025-09",
+   "normal": 26,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 59,
+   "maaned": "2025-07",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 8,
+   "beloebKr": 500
+  },
+  {
+   "linje": 60,
+   "maaned": "2025-03",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 61,
+   "maaned": "2025-03",
+   "normal": 23,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 62,
+   "maaned": "2025-04",
+   "normal": 17,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 63,
+   "maaned": "2025-08",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 64,
+   "maaned": "2025-07",
+   "normal": 27,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 65,
+   "maaned": "2025-08",
+   "normal": 38,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 66,
+   "maaned": "2025-01",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 67,
+   "maaned": "2025-02",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 68,
+   "maaned": "2025-04",
+   "normal": 10,
+   "aften": 5,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 69,
+   "maaned": "2025-05",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 70,
+   "maaned": "2025-07",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 71,
+   "maaned": "2025-08",
+   "normal": 30,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 72,
+   "maaned": "2025-03",
+   "normal": 50,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 73,
+   "maaned": "2025-03",
+   "normal": 3,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 74,
+   "maaned": "2025-09",
+   "normal": 5,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 75,
+   "maaned": "2025-02",
+   "normal": 5,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 76,
+   "maaned": "2025-03",
+   "normal": 11,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 77,
+   "maaned": "2025-06",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 78,
+   "maaned": "2025-10",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 79,
+   "maaned": "2025-03",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 10,
+   "beloebKr": 500
+  },
+  {
+   "linje": 80,
+   "maaned": "2025-04",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 81,
+   "maaned": "2025-05",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 24,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 82,
+   "maaned": "2025-06",
+   "normal": 0,
+   "aften": 5,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 83,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 11,
+   "beloebKr": 500
+  },
+  {
+   "linje": 84,
+   "maaned": "2025-02",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 85,
+   "maaned": "2025-04",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 9,
+   "beloebKr": 750
+  },
+  {
+   "linje": 86,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 8,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 87,
+   "maaned": "2025-09",
+   "normal": 6,
+   "aften": 9,
+   "weekend": 7,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 88,
+   "maaned": "2025-10",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 89,
+   "maaned": "2025-04",
+   "normal": 7,
+   "aften": 9,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 90,
+   "maaned": "2025-09",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 91,
+   "maaned": "2025-04",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 92,
+   "maaned": "2025-07",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 93,
+   "maaned": "2025-08",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 94,
+   "maaned": "2025-10",
+   "normal": 47,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 95,
+   "maaned": "2025-02",
+   "normal": 3,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 96,
+   "maaned": "2025-05",
+   "normal": 5,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 97,
+   "maaned": "2025-01",
+   "normal": 16,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 98,
+   "maaned": "2025-02",
+   "normal": 25,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 99,
+   "maaned": "2025-03",
+   "normal": 35,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 100,
+   "maaned": "2025-04",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 101,
+   "maaned": "2025-07",
+   "normal": 41,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 102,
+   "maaned": "2025-08",
+   "normal": 29,
+   "aften": 0,
+   "weekend": 4,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 103,
+   "maaned": "2025-09",
+   "normal": 48,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 104,
+   "maaned": "2025-10",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 6,
+   "beloebKr": 500
+  },
+  {
+   "linje": 105,
+   "maaned": "2025-04",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 30,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 106,
+   "maaned": "2025-03",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 22,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 107,
+   "maaned": "2025-10",
+   "normal": 3,
+   "aften": 2,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 108,
+   "maaned": "2025-07",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 109,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 1,
+   "beloebKr": 500
+  },
+  {
+   "linje": 110,
+   "maaned": "2025-03",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 1,
+   "beloebKr": 500
+  },
+  {
+   "linje": 111,
+   "maaned": "2025-03",
+   "normal": 1,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 112,
+   "maaned": "2025-04",
+   "normal": 1,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 113,
+   "maaned": "2025-08",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 5,
+   "beloebKr": 750
+  },
+  {
+   "linje": 114,
+   "maaned": "2025-09",
+   "normal": 32,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 115,
+   "maaned": "2025-10",
+   "normal": 84,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1500
+  },
+  {
+   "linje": 116,
+   "maaned": "2025-05",
+   "normal": 25,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 117,
+   "maaned": "2025-04",
+   "normal": 3,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 118,
+   "maaned": "2025-05",
+   "normal": 28,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 119,
+   "maaned": "2025-06",
+   "normal": 19,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 120,
+   "maaned": "2025-08",
+   "normal": 95,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1750
+  },
+  {
+   "linje": 121,
+   "maaned": "2025-09",
+   "normal": 28,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 122,
+   "maaned": "2025-10",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 123,
+   "maaned": "2025-03",
+   "normal": 40,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 124,
+   "maaned": "2025-03",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 125,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 8,
+   "beloebKr": 500
+  },
+  {
+   "linje": 126,
+   "maaned": "2025-07",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 127,
+   "maaned": "2025-04",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 128,
+   "maaned": "2025-04",
+   "normal": 70,
+   "aften": 8,
+   "weekend": 0,
+   "beloebKr": 1750
+  },
+  {
+   "linje": 129,
+   "maaned": "2025-03",
+   "normal": 0,
+   "aften": 8,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 130,
+   "maaned": "2025-10",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 131,
+   "maaned": "2025-04",
+   "normal": 11,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 132,
+   "maaned": "2025-10",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 133,
+   "maaned": "2025-02",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 134,
+   "maaned": "2025-03",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 135,
+   "maaned": "2025-05",
+   "normal": 49,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 136,
+   "maaned": "2025-06",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 137,
+   "maaned": "2025-10",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 138,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 16,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 139,
+   "maaned": "2025-09",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 140,
+   "maaned": "2025-03",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 9,
+   "beloebKr": 750
+  },
+  {
+   "linje": 141,
+   "maaned": "2025-03",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 142,
+   "maaned": "2025-04",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 143,
+   "maaned": "2025-04",
+   "normal": 13,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 144,
+   "maaned": "2025-09",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 145,
+   "maaned": "2025-02",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 146,
+   "maaned": "2025-03",
+   "normal": 36,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 147,
+   "maaned": "2025-08",
+   "normal": 11,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 148,
+   "maaned": "2025-05",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 149,
+   "maaned": "2025-08",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 150,
+   "maaned": "2025-03",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 151,
+   "maaned": "2025-04",
+   "normal": 16,
+   "aften": 8,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 152,
+   "maaned": "2025-03",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 153,
+   "maaned": "2025-08",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 154,
+   "maaned": "2025-09",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 155,
+   "maaned": "2025-10",
+   "normal": 17,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 156,
+   "maaned": "2025-04",
+   "normal": 17,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 157,
+   "maaned": "2025-05",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 158,
+   "maaned": "2025-07",
+   "normal": 23,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 159,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 10,
+   "beloebKr": 500
+  },
+  {
+   "linje": 160,
+   "maaned": "2025-09",
+   "normal": 0,
+   "aften": 3,
+   "weekend": 12,
+   "beloebKr": 500
+  },
+  {
+   "linje": 161,
+   "maaned": "2025-10",
+   "normal": 13,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 162,
+   "maaned": "2025-03",
+   "normal": 30,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 163,
+   "maaned": "2025-04",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 164,
+   "maaned": "2025-05",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 165,
+   "maaned": "2025-07",
+   "normal": 36,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 166,
+   "maaned": "2025-08",
+   "normal": 1,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 167,
+   "maaned": "2025-09",
+   "normal": 13,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 168,
+   "maaned": "2025-10",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 169,
+   "maaned": "2025-07",
+   "normal": 4,
+   "aften": 3,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 170,
+   "maaned": "2025-09",
+   "normal": 3,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 171,
+   "maaned": "2025-10",
+   "normal": 4,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 172,
+   "maaned": "2025-08",
+   "normal": 21,
+   "aften": 0,
+   "weekend": 9,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 173,
+   "maaned": "2025-03",
+   "normal": 30,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 174,
+   "maaned": "2025-09",
+   "normal": 17,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 175,
+   "maaned": "2025-03",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 176,
+   "maaned": "2025-04",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 177,
+   "maaned": "2025-09",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 178,
+   "maaned": "2025-03",
+   "normal": 2,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 179,
+   "maaned": "2025-08",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 6,
+   "beloebKr": 500
+  },
+  {
+   "linje": 180,
+   "maaned": "2025-05",
+   "normal": 27,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 181,
+   "maaned": "2025-02",
+   "normal": 13,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 182,
+   "maaned": "2025-03",
+   "normal": 18,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 183,
+   "maaned": "2025-04",
+   "normal": 6,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 184,
+   "maaned": "2025-03",
+   "normal": 17,
+   "aften": 1,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 185,
+   "maaned": "2025-02",
+   "normal": 55,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 186,
+   "maaned": "2025-03",
+   "normal": 22,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 187,
+   "maaned": "2025-07",
+   "normal": 8,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 188,
+   "maaned": "2025-09",
+   "normal": 28,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 189,
+   "maaned": "2025-10",
+   "normal": 27,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 190,
+   "maaned": "2025-03",
+   "normal": 3,
+   "aften": 7,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 191,
+   "maaned": "2025-04",
+   "normal": 26,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 192,
+   "maaned": "2025-07",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 17,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 193,
+   "maaned": "2025-08",
+   "normal": 46,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 1000
+  },
+  {
+   "linje": 194,
+   "maaned": "2025-09",
+   "normal": 31,
+   "aften": 4,
+   "weekend": 0,
+   "beloebKr": 1250
+  },
+  {
+   "linje": 195,
+   "maaned": "2025-10",
+   "normal": 23,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 196,
+   "maaned": "2025-03",
+   "normal": 0,
+   "aften": 1,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 197,
+   "maaned": "2025-04",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 13,
+   "beloebKr": 500
+  },
+  {
+   "linje": 198,
+   "maaned": "2025-03",
+   "normal": 0,
+   "aften": 29,
+   "weekend": 6,
+   "beloebKr": 1500
+  },
+  {
+   "linje": 199,
+   "maaned": "2025-03",
+   "normal": 28,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 200,
+   "maaned": "2025-08",
+   "normal": 7,
+   "aften": 0,
+   "weekend": 10,
+   "beloebKr": 750
+  },
+  {
+   "linje": 201,
+   "maaned": "2025-10",
+   "normal": 14,
+   "aften": 10,
+   "weekend": 0,
+   "beloebKr": 750
+  },
+  {
+   "linje": 202,
+   "maaned": "2025-03",
+   "normal": 12,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  },
+  {
+   "linje": 203,
+   "maaned": "2025-09",
+   "normal": 0,
+   "aften": 0,
+   "weekend": 3,
+   "beloebKr": 500
+  },
+  {
+   "linje": 204,
+   "maaned": "2025-10",
+   "normal": 27,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 500
+  },
+  {
+   "linje": 205,
+   "maaned": "2025-03",
+   "normal": 9,
+   "aften": 0,
+   "weekend": 0,
+   "beloebKr": 250
+  }
+ ]
+}
