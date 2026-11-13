@@ -6,14 +6,23 @@
   "scripts": {
     "typecheck": "tsc -p tsconfig.json",
     "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts"
+    "start": "tsx src/server.ts",
+    "admin": "tsx src/admin-cli.ts"
   },
   "dependencies": {
+    "@fastify/cookie": "^11.1.5",
+    "@fastify/rate-limit": "^10.3.0",
     "@jhfs/core": "workspace:*",
+    "@jhfs/db": "workspace:*",
+    "@simplewebauthn/browser": "^13.3.0",
+    "@simplewebauthn/server": "^13.3.3",
     "fastify": "^5.12.8",
+    "pg": "^8.23.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "tsx": "^4.23.15"
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "vitest": "^2.1.9"
   }
 }
