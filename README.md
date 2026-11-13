@@ -13,9 +13,9 @@ fakturering til e-conomic, bankafstemning, Kompas (likviditet) og meget mere.
 | Regler med gyldighedsdatoer | ✅ med tests |
 | Telefonsupport-afregning | ✅ testet mod alle 205 linjer i Fakturagrundlag 2025 |
 | Database med adskillelse mellem firmaer | ✅ testet mod rigtig Postgres |
-| API-skelet | ✅ (kun lokalt, indtil login er bygget) |
+| API-skelet, alt lukket bag login | ✅ |
 | Automatisk testkørsel på GitHub | ✅ |
-| Login med passkey / to-faktor | ⏳ næste skridt |
+| Login med passkey (Face ID / fingeraftryk), gendannelseskoder | ✅ testet i rigtig browser |
 | Server, backup og drift | ⏳ |
 
 ## Opbygning
@@ -37,3 +37,5 @@ pnpm db:migrate
 pnpm check                     # typetjek + alle tests
 pnpm dev:api
 ```
+
+Første gang: se `docs/drift/foerste-login.md`.

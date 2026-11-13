@@ -19,6 +19,12 @@ JHFS Core er JH Farm Support ApS' eget virksomhedsprogram. Ejer: Jens Høj. Brug
 - Programmet logger ind som en almindelig bruger, der er medlem af `jhfs_app` – aldrig som administrator.
 - Migrationer i `packages/db/migrations` ændres aldrig efter de er kørt. Lav en ny.
 
+## Login
+- Kun passkeys. Ingen kodeord. Gendannelseskoder giver aldrig direkte adgang – kun lov til at oprette en ny passkey.
+- Koder og sessionsnøgler gemmes kun som SHA-256-fingeraftryk.
+- Alt der ændrer noget kræver Origin-tjek. Alt undtagen /sundhed, /auth/*, /login, /tilmeld og /static/* kræver login.
+- Opslag før login sker kun via de fire `auth_*`-funktioner i migration 0002.
+
 ## Data og privatliv
 - Ingen rigtige kundenavne, telefonnumre, CPR, kodeord eller nøgler i repoet. Brug anonymiseret testdata.
 - `.env` kommer aldrig på GitHub.

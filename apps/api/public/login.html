@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log ind – JHFS Core</title>
+  <link rel="stylesheet" href="/static/stil.css">
+  <script src="/static/webauthn.js" defer></script>
+  <script src="/static/login.js" defer></script>
+</head>
+<body data-side="login">
+  <header><span class="jh">JH</span><span class="fs">FARM SUPPORT</span></header>
+  <div class="baand"></div>
+  <main>
+    <section class="kort" id="login">
+      <h1>Log ind på Core</h1>
+      <p>Brug Face ID, fingeraftryk eller koden på din telefon eller computer.</p>
+      <button id="login-knap" type="button">Log ind med passkey</button>
+      <p class="fejl" id="login-fejl" role="alert"></p>
+      <p class="lille"><a href="#" id="vis-gendan">Mistet din telefon? Brug en gendannelseskode</a></p>
+    </section>
+    <section class="kort skjult" id="gendan">
+      <h1>Gendannelseskode</h1>
+      <p>Skriv en af dine gendannelseskoder. Den kan kun bruges én gang, og bagefter opretter du en ny passkey.</p>
+      <label for="gendan-kode" class="lille">Kode (fx K7QM-3RXT-9HWA)</label>
+      <input id="gendan-kode" autocomplete="off" spellcheck="false" maxlength="20">
+      <button id="gendan-knap" type="button">Fortsæt</button>
+      <p class="fejl" id="gendan-fejl" role="alert"></p>
+      <p class="lille"><a href="#" id="vis-login">Tilbage til login</a></p>
+    </section>
+  </main>
+</body>
+</html>

@@ -3,13 +3,13 @@ import { byggApp } from "../src/app.js";
 
 describe("API", () => {
   it("sundhed", async () => {
-    const r = await byggApp().inject({ method: "GET", url: "/sundhed" });
+    const r = await (await byggApp()).inject({ method: "GET", url: "/sundhed" });
     expect(r.statusCode).toBe(200);
     expect(r.json()).toEqual({ status: "ok" });
   });
 
   it("beregner telefonsupport", async () => {
-    const r = await byggApp().inject({
+    const r = await (await byggApp()).inject({
       method: "POST",
       url: "/telefonsupport/beregn",
       payload: {
@@ -25,7 +25,7 @@ describe("API", () => {
   });
 
   it("afviser ugyldige data med en forståelig fejl", async () => {
-    const r = await byggApp().inject({
+    const r = await (await byggApp()).inject({
       method: "POST",
       url: "/telefonsupport/beregn",
       payload: { opkald: [{ kundeId: "k1", dato: "2026-02-30", kl: "10:00", sekunder: 60, besvaret: true, navn: "X" }] },
@@ -35,7 +35,7 @@ describe("API", () => {
   });
 
   it("afviser kommatal i sekunder", async () => {
-    const r = await byggApp().inject({
+    const r = await (await byggApp()).inject({
       method: "POST",
       url: "/telefonsupport/beregn",
       payload: { opkald: [{ kundeId: "k1", dato: "2026-03-03", kl: "10:00", sekunder: 1.5, besvaret: true, navn: "X" }] },

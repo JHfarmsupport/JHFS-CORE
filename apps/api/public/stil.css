@@ -1,0 +1,89 @@
+:root {
+  --lime: #7dc242;
+  --groen: #3d7d2a;
+  --moerk: #17251a;
+  --gul: #f2d53c;
+  --bund: #f1fdf1;
+  --graa: #556258;
+  --fejl: #b3261e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--moerk);
+  background: var(--bund);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background: #fff;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+header .jh { color: var(--moerk); }
+header .fs { color: #4e9a2a; }
+.baand { background: var(--lime); height: 10px; }
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+.kort {
+  background: #fff;
+  border: 1px solid #d5e8ce;
+  border-radius: 14px;
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+h1 { font-size: 22px; margin: 0; }
+p { margin: 0; line-height: 1.5; }
+.lille { font-size: 13px; color: var(--graa); }
+button {
+  font: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  min-height: 48px;
+  padding: 12px 18px;
+  cursor: pointer;
+  border: 0;
+  background: var(--groen);
+  color: #fff;
+}
+button.sekundaer { background: #fff; color: var(--moerk); border: 1.5px solid #c9d9c4; }
+button:disabled { opacity: 0.6; cursor: wait; }
+input {
+  font: inherit;
+  font-size: 16px;
+  padding: 12px;
+  border: 1.5px solid #c9d9c4;
+  border-radius: 8px;
+  width: 100%;
+}
+#gendan-kode { text-transform: uppercase; letter-spacing: 0.1em; }
+a { color: var(--groen); }
+.fejl { color: var(--fejl); font-weight: 600; min-height: 1.4em; }
+.koder {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 15px;
+  white-space: nowrap;
+  background: #fffbe0;
+  border: 1.5px solid var(--gul);
+  border-radius: 10px;
+  padding: 14px;
+  columns: 2;
+  line-height: 1.8;
+}
+.skjult { display: none !important; }

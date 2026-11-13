@@ -1,13 +1,20 @@
+import pg from "pg";
 import { byggApp } from "./app.js";
+import { simpleWebAuthnMotor } from "./auth/passkey-motor.js";
+import { laesIndstillinger } from "./indstillinger.js";
 
-const port = Number(process.env.PORT ?? 3000);
-// Lytter kun på localhost, indtil login er bygget.
-const host = process.env.HOST ?? "127.0.0.1";
+const cfg = laesIndstillinger();
+const appPool = new pg.Pool({ connectionString: cfg.appDatabaseUrl, max: 10 });
 
-byggApp()
-  .listen({ port, host })
-  .then((adr) => console.log(`JHFS Core API kører på ${adr}`))
-  .catch((e: unknown) => {
-    console.error(e);
-    process.exit(1);
-  });
+const app = await byggApp({
+  auth: {
+    appPool,
+    motor: simpleWebAuthnMotor({ rpId: cfg.rpId, rpNavn: "JHFS Core", origin: cfg.origin }),
+    origin: cfg.origin,
+    sikkerCookie: cfg.sikkerCookie,
+    sessionDage: cfg.sessionDage,
+  },
+});
+
+const adr = await app.listen({ port: cfg.port, host: cfg.host });
+console.log(`JHFS Core kører på ${adr} (offentlig adresse: ${cfg.origin})`);

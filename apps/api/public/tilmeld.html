@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Opret passkey – JHFS Core</title>
+  <link rel="stylesheet" href="/static/stil.css">
+  <script src="/static/webauthn.js" defer></script>
+  <script src="/static/login.js" defer></script>
+</head>
+<body data-side="tilmeld">
+  <header><span class="jh">JH</span><span class="fs">FARM SUPPORT</span></header>
+  <div class="baand"></div>
+  <main>
+    <section class="kort" id="tilmeld">
+      <h1>Opret passkey</h1>
+      <p id="hej">Din telefon eller computer gemmer en passkey, som du logger ind med fremover. Ingen kodeord.</p>
+      <label for="enhed" class="lille">Navn på enheden (fx "iPhone" eller "Kontor-pc")</label>
+      <input id="enhed" maxlength="60" autocomplete="off">
+      <button id="tilmeld-knap" type="button">Opret passkey</button>
+      <p class="fejl" id="tilmeld-fejl" role="alert"></p>
+    </section>
+    <section class="kort skjult" id="koder">
+      <h1>Gem dine gendannelseskoder</h1>
+      <p>Hvis du mister telefonen, er disse koder den eneste vej ind. Hver kode virker én gang.</p>
+      <p><strong>Print dem eller skriv dem ned, og læg dem et sikkert sted.</strong> De vises kun nu.</p>
+      <div class="koder" id="kode-liste"></div>
+      <button id="koder-gemt" type="button">Jeg har gemt koderne</button>
+    </section>
+  </main>
+</body>
+</html>
