@@ -8,7 +8,7 @@ Kode: `packages/core/src/telefonsupport.ts` · Værdier: `packages/core/src/stan
 - Alle opkald til samme kunde i samme måned lægges sammen pr. tidstype, og først derefter rundes der op.
 - Flere kontakter hos samme kunde = samme kunde.
 - Ubesvarede opkald tæller ikke. Er der tid, er det mindst 1 kvarter.
-- Helligdage: de officielle + grundlovsdag.
+- Helligdage: de officielle + grundlovsdag (2026: også juleaften og nytårsaften).
 
 ## 2025 (sådan er Fakturagrundlag 2025 regnet)
 - Påbegyndt kvarter uden tolerance (16 min = 2 kvarterer).
@@ -20,8 +20,10 @@ Kode: `packages/core/src/telefonsupport.ts` · Værdier: `packages/core/src/stan
 - Besvarede opkald under 1 minut tæller med deres sekunder.
 - Én samlet faktura pr. kunde for hele året, med en tekstblok og varelinjer pr. måned.
 
-## Åbne spørgsmål til Jens
-1. **Aften og weekend – hver for sig eller samlet?** 2025-arket lagde dem sammen før afrunding,
-   men 2025-fakturaerne har dem på hver sin varelinje (Tlfsup115 og Tlfsup215). Koden kører lige nu
-   "hver for sig" for 2026.
-2. **Juleaften og nytårsaften** – helligdag (500 kr) eller normal?
+## Besluttet af Jens 13/11-2026
+- Aften og weekend rundes **hver for sig** (varelinjerne Tlfsup215 og Tlfsup115).
+- Weekend er weekend hele døgnet – morgen, dag og aften. Det samme gælder helligdage.
+- Grundlovsdag, juleaften og nytårsaften er helligdage.
+
+Bemærk: 2025-reglen genskaber 2025-arket præcist, og arket lagde i to linjer aften og weekend sammen.
+Derfor er 2025-reglen "samlet" – den bruges kun til at kontrollere gamle tal.

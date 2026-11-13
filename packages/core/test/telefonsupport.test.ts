@@ -73,6 +73,13 @@ describe("tidstype", () => {
   it("helligdage og grundlovsdag = weekend-takst", () => {
     expect(tidstype({ dato: dato("2026-04-02"), kl: "20:22" }, regel2026)).toBe("weekend"); // skærtorsdag
     expect(tidstype({ dato: dato("2026-06-05"), kl: "10:00" }, regel2026)).toBe("weekend"); // grundlovsdag
+    expect(tidstype({ dato: dato("2026-12-24"), kl: "10:00" }, regel2026)).toBe("weekend"); // juleaften
+    expect(tidstype({ dato: dato("2026-12-31"), kl: "10:00" }, regel2026)).toBe("weekend"); // nytårsaften
+  });
+
+  it("weekend er weekend hele døgnet – også morgen og aften", () => {
+    expect(tidstype({ dato: dato("2026-04-18"), kl: "06:30" }, regel2026)).toBe("weekend");
+    expect(tidstype({ dato: dato("2026-04-19"), kl: "21:15" }, regel2026)).toBe("weekend");
   });
 });
 

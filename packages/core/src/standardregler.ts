@@ -35,12 +35,12 @@ export const TELEFONSUPPORT_REGLER: readonly Regel<TelefonsupportRegel>[] = [
     navn: "Telefonsupport 2026",
     gyldigFra: dato("2026-01-01"),
     begrundelse:
-      "Jens 12/11-2026: 2 minutters tolerance (33 min = 45 min), opkald under 1 min tæller, én samlet faktura pr. kunde for året. Grundlovsdag som helligdag som i 2025. ÅBENT: skal aften og weekend rundes hver for sig (som varelinjerne på 2025-fakturaerne) eller samlet (som i 2025-arket)?",
+      "Jens 12/11-2026: 2 minutters tolerance (33 min = 45 min), opkald under 1 min tæller, én samlet faktura pr. kunde for året. Jens 13/11-2026: aften og weekend rundes hver for sig; weekend er weekend hele døgnet; grundlovsdag, juleaften og nytårsaften er helligdage.",
     vaerdi: {
       ...faelles,
       toleranceSekunder: 2 * 60,
       aftenOgWeekendSamlet: false,
-      ekstraFridage: ["grundlovsdag"],
+      ekstraFridage: ["grundlovsdag", "juleaften", "nytaarsaften"],
     },
   },
 ];
