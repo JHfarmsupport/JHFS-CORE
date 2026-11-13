@@ -11,10 +11,10 @@
     "migrate": "tsx src/migrate.ts"
   },
   "dependencies": {
-    "pg": "^8.23.1"
+    "pg": "^8.23.1",
+    "tsx": "^4.23.15"
   },
   "devDependencies": {
-    "@types/pg": "^8.23.1",
-    "tsx": "^4.23.15"
+    "@types/pg": "^8.23.1"
   }
 }
