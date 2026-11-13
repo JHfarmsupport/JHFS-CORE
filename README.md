@@ -16,7 +16,7 @@ fakturering til e-conomic, bankafstemning, Kompas (likviditet) og meget mere.
 | API-skelet, alt lukket bag login | ✅ |
 | Automatisk testkørsel på GitHub | ✅ |
 | Login med passkey (Face ID / fingeraftryk), gendannelseskoder | ✅ testet i rigtig browser |
-| Server, backup og drift | ⏳ |
+| Server, HTTPS, firewall og krypteret backup med ugentlig test | ✅ klar – se docs/drift/server.md |
 
 ## Opbygning
 

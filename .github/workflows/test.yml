@@ -41,3 +41,36 @@ jobs:
         run: pnpm typecheck
       - name: Tests (inkl. 2025-facit, firma-adskillelse og login i rigtig browser)
         run: pnpm test
+
+  # Bygger programmet præcis som på serveren og tjekker at det starter og kører migrationerne.
+  drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testmiljø (kun til CI)
+        working-directory: deploy
+        run: |
+          {
+            echo "DOMAENE=localhost"
+            echo "DB_ADMIN_KODE=$(openssl rand -hex 16)"
+            echo "DB_APP_KODE=$(openssl rand -hex 16)"
+          } > .env
+      - name: Byg og start database, migrationer og program
+        working-directory: deploy
+        run: docker compose up -d --build --wait db app
+      - name: Migrationerne er kørt
+        working-directory: deploy
+        run: test "$(docker compose ps -a migrer --format '{{.ExitCode}}')" = "0"
+      - name: Programmet svarer og kører som almindelig bruger
+        working-directory: deploy
+        run: |
+          docker compose exec -T app node -e "fetch('http://127.0.0.1:3000/sundhed').then(r=>r.json()).then(j=>{console.log(j);process.exit(j.status==='ok'?0:1)})"
+          test "$(docker compose exec -T app id -u)" != "0"
+      - name: Opret ejer virker (administrationskommando)
+        working-directory: deploy
+        run: docker compose exec -T app node --import tsx src/admin-cli.ts opret-ejer --firma "CI Test ApS" --email ci@test.dk --navn "CI"
+      - name: Log ved fejl
+        if: failure()
+        working-directory: deploy
+        run: docker compose logs

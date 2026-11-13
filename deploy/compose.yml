@@ -1,0 +1,83 @@
+# JHFS Core på serveren.
+#
+#   cd /opt/jhfs-core/deploy && docker compose up -d --build
+#
+# Kun Caddy er åben udadtil (port 80/443). Databasen og programmet kan ikke nås udefra.
+# Hemmeligheder ligger i /opt/jhfs-core/deploy/.env (aldrig på GitHub) – se .env.eksempel.
+
+name: jhfs
+
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: jhfs
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_ADMIN_KODE:?mangler}
+      JHFS_WEB_KODE: ${DB_APP_KODE:?mangler}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./db-init:/docker-entrypoint-initdb.d:ro
+    networks: [intern]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d jhfs"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  # Kører databasens migrationer som administrator og stopper så igen.
+  migrer:
+    build: ..
+    restart: "no"
+    working_dir: /app/packages/db
+    command: ["node", "--import", "tsx", "src/migrate.ts"]
+    environment:
+      DATABASE_URL: postgres://postgres:${DB_ADMIN_KODE}@db:5432/jhfs
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [intern]
+
+  app:
+    build: ..
+    restart: unless-stopped
+    environment:
+      ORIGIN: https://${DOMAENE:?mangler}
+      DATABASE_APP_URL: postgres://jhfs_web:${DB_APP_KODE}@db:5432/jhfs
+      # Kun til administrationskommandoer (opret-ejer, ny-kode). Programmet selv bruger DATABASE_APP_URL.
+      DATABASE_URL: postgres://postgres:${DB_ADMIN_KODE}@db:5432/jhfs
+      HOST: 0.0.0.0
+      PORT: "3000"
+    depends_on:
+      migrer:
+        condition: service_completed_successfully
+    networks: [intern]
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      DOMAENE: ${DOMAENE}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    networks: [intern]
+
+volumes:
+  db-data:
+  caddy-data:
+  caddy-config:
+
+networks:
+  intern:
