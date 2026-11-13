@@ -71,14 +71,14 @@ input {
   border: 1.5px solid #c9d9c4;
   border-radius: 8px;
   width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
+#gendan-kode { text-transform: uppercase; letter-spacing: 0.1em; }
 a { color: var(--groen); }
 .fejl { color: var(--fejl); font-weight: 600; min-height: 1.4em; }
 .koder {
   font-family: ui-monospace, Menlo, monospace;
-  font-size: 18px;
+  font-size: 15px;
+  white-space: nowrap;
   background: #fffbe0;
   border: 1.5px solid var(--gul);
   border-radius: 10px;
