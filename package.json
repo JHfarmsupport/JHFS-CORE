@@ -1,0 +1,23 @@
+{
+  "name": "jhfs-core",
+  "private": true,
+  "description": "JHFS Core – JH Farm Support's eget virksomhedsprogram",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "pnpm typecheck && pnpm test",
+    "db:up": "docker compose up -d db",
+    "db:migrate": "pnpm --filter @jhfs/db migrate",
+    "dev:api": "pnpm --filter @jhfs/api dev"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
